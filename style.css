@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Berkshire+Swash&display=swap');
+body{
+    background-color: pink;
+    color: purple;
+}
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Contenedor{
+    text-align: center;
+    width: 550px;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    margin: 200px auto;
+    border-radius: 5%;
+    box-shadow: 5px 8px 12px black;
+}
+
+.Contenedor img{
+    width: 100%;
+    height: 100%;
+}
+.Contenedor p {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 77%;
+    left: 40%;
+    transform: translate(-30%, -50%);
+}

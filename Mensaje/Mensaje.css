@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+body{
+    font-family: 'Playwrite GB S', cursive;
+    
+}
+.mensaje{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.mensaje img{
+
+   font-size: 24px;
+    width: 550px;
+    height: 850px;
+    position: relative;
+      
+}
+.mensaje p {
+    font-size: 1rem;
+    position: absolute;
+    top: 29%;
+    left: 30%;
+    transform: translate(-30%, -33%);
+    clip-path: circle(5% at top left);
+    transition-property: clip-path;
+    transition-duration: 5s;
+}
+
+.boton1, .mensaje p:hover{
+    clip-path: circle(200% at top left);
+}
+
+.boton1{
+    clip-path: circle(5% at top left);
+    transition-property: clip-path;
+    transition-duration: 5s;
+}
+.boton1 :hover{
+    clip-path: circle(200% at top left);
+}
